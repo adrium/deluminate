@@ -24,7 +24,7 @@ html[hc^="delumine"] #deluminate_backdrop {
 
 /* Override the above with a low-contrast version if selected. */
 html[hc^="delumine"][hc*="low-contrast"] {
-  -webkit-filter: invert(92%) hue-rotate(180deg);
+  -webkit-filter: contrast(95%) invert(90%) hue-rotate(180deg);
 }
 
 /* Lower the contrast without inverting the luminance. */
